@@ -7,42 +7,56 @@
 	<label for="nombre">Nombre:</label>
 	<input type="text" id="nombre" name="nombre"><br><br>
 	<label for="apellido">Apellidos:</label>
-	<input type="text" id="apellido" name="apellido"><br>
+	<input type="text" id="apellido" name="apellido"><br><br>
+	<label for="apellido">Domicilio:</label>
+	<input type="text" id="casa" name="casa"><br><br>
+	<label for="apellido">Localidad:</label>
+	<input type="text" id="casa2" name="casa2"><br><br>
+	<label for="apellido">Código Postal:</label>
+	<input type="text" id="cp" name="cp"><br><br>
+	<label for="apellido">Teléfono:</label>
+	<input type="text" id="tlf" name="tlf"><br><br>
 </fieldset>
 <fieldset>
-	<legend>Extras</legend>
-	<label>Fecha:</label>
-	<input type="date" id="fechanac" name="fechanac"><br><br>
-	<label>Eres pitufo?:</label><br>
-	<label for="si">Sí</label>
-	<input input="si" type="checkbox" id="nombre" name="nombre"><br>
-	<label for="no">No</label>
-	<input input="no" type="checkbox" id="nombre" name="nombre"><br><br>
-	<label for="gusta">Te gusta serlo?:</label><br>
-	<input type="radio" id="gusta" name="sinogusta">
-	<label>Sí, me encanta</label><br>
-	<input type="radio" id="gusta" name="sinogusta">
-	<label>No, pero me encanta igual</label><br><br>
-	<label for="porque">Dime por qué te gusta ser pitufo o por qué no: </label><br>
+	<legend>Opción de entrega</legend>
+	<label>Cómo lo prefieres?</label><br>
+	<input input="no" type="radio" id="recoger" name="nombre">
+	<label for="si">Recoger en el local</label><br>
+	<input input="si" type="radio" id="recoger" name="nombre">
+	<label for="no">Enviar a domicilio</label><br>
+</fieldset>
+<fieldset>
+	<legend>Recibir nuestras ofertas</legend>
+	<label for="gusta">Dónde te gustaría recibir nuestras ofertas?</label><br>
+	<input type="checkbox" id="gusta" name="sinogusta">
+	<label>E-mail</label><br>
+	<input type="checkbox" id="gusta" name="sinogusta">
+	<label>Por carta a domicilio</label><br><br>
+</fieldset>
+<fieldset>
+	<legend>Personaliza tu menú</legend>
+	<label for="dia">Tamaño del bocadillo</label><br>
+	<select id="dia" size="4">
+	<option value="lunes">Pequeño</option>
+	<option value="martes" selected="selected">Mediano</option>
+	<option value="miercoles">Grande</option>
+	<option value="jueves">Enorme</option>
+	</select><br><br>
+	<label for="dia">Contenido del bocadillo</label><br>
+	<select id="dia" size="4">
+	<option value="lunes">Anchoas</option>
+	<option value="martes">Calamares</option>
+	<option value="miercoles">Mejillones</option>
+	<option value="jueves">Jamon</option>
+	</select><br><br>
+	<label for="porque">Sugerencias:</label><br>
 	<textarea id="porque" cols="50" rows="4">
 	</textarea><br><br>
-</fieldset
-	<label for="dia">Dia de la semana</label><br>
-	<select id="dia" size="7">
-	<option value="lunes">Lunes</option>
-	<option value="martes">Martes</option>
-	<option value="miercoles" selected="selected">Miércoles</option>
-	<option value="jueves">Jueves</option>
-	<option value="viernes">Viernes</option>
-	<option value="sabado">Sábado</option>
-	<option value="domingo">Domingo</option>
-	</select><br><br>
 	<input type="reset" value="Borrar todo">
-	<br><br>
-	<input type="button" value="Hola esto es un botón">
-	<br><br>
-	<input type="submit" value="Enviar">
+	<br>
 </fieldset>
+	<br>
+	<input type="submit" value="Enviar">
 </form>
 </body>
 </html>
