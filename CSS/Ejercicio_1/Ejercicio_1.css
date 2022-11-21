@@ -1,0 +1,22 @@
+h1{
+color: red;
+font-size: 4em;
+}
+h2{
+font-size: 3em;
+color: red;
+}
+h3{
+font-size: 2em;
+color: red;
+}
+#titulo1{
+	text-align: center;
+	background-color: blue;
+	font-family: Arial;
+	top: 10px;
+}
+#titulo2{
+	text-align: right;
+	background-color: yellow;
+}
