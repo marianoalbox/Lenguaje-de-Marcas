@@ -1,0 +1,12 @@
+p{
+    color: blue;
+    background-color: gray;
+    border: 2px solid black;
+}
+#par, #par2{
+    background-color: yellow;
+}
+#par3{
+    font-size: 2em;
+    background-color: yellow;
+}
