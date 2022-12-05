@@ -20,9 +20,21 @@ html{
     font-size: 1.5em;
 }
 
+#puyol{
+    float: right;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#zidane{
+    float: left;
+    margin-right: 1%;
+}
+
 #cuerpo{
     background-color: aquamarine;
     float: right;
     width: 74%;
     margin-top: 1%;
+    padding-left: 1%;
 }
