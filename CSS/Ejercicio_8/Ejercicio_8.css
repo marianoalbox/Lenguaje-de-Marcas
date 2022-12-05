@@ -1,0 +1,21 @@
+#p1{
+    border: 5px solid;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+}
+#p2{
+    border: 5px solid;
+    margin: 5px;
+    padding: 5px;
+    background-color: yellow;
+}
+#p3{
+    border: 5px solid;
+    margin: 0px;
+    padding: 20px;
+    background-color: red;
+}
+body{
+    margin: 0px;
+}

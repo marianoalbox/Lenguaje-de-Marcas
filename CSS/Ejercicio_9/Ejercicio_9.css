@@ -1,0 +1,44 @@
+#cabecera{
+    width: 100%;
+    margin-top: 10px;
+    background-color: orangered;
+    font-size: 3em;
+    height: 80px;
+    border: 2px solid;
+    padding: 1em;
+    float: left;
+}
+img{
+    top: 10px;
+    float: right;
+    height: 130px;
+    padding-right: 45px;
+}
+#colizq{
+    background-color: blue;
+    float: left;
+    width: 72%;
+    height: 300px;
+    border: 2px solid;
+    padding: 1em;
+    margin-top: 10px;
+}
+#coldere{
+    background-color: blueviolet;
+    float: right;
+    width: 22%;
+    height: 330px;
+    border: 2px solid;
+    padding: 1em;
+    margin-top: 10px;
+}
+#pie{
+    background-color: orange;
+    clear: both;
+    border: 2px solid;
+    padding: 1em;
+    font-size: 2em;
+}
+body{
+    margin: 0px;
+}
