@@ -1,0 +1,35 @@
+html{
+    background-color: rgba(255, 230, 0, 0.562);
+}
+#titulo{
+    float: left;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+    font-size: 1.3em;
+}
+
+#registrar{
+    font-size: 14px;
+    float: right;
+}
+#colIzq{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+#colDere{
+    width: 50%;
+    float: right;
+}
+#extras{
+    clear: both;
+    padding-top: 2em;
+}
+#boton{
+    border: 2px solid red;
+    background-color: transparent;
+}
