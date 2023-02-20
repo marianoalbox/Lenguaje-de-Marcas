@@ -19,7 +19,7 @@ html{
     margin-left: 5%;
 }
 
-p{
+#Nombre_pag{
     position: absolute;
     color: #a10000;
     font-family:Times;
@@ -59,4 +59,8 @@ ul:hover a:not(:hover){
     color: rgb(255, 0, 0);;
     opacity: 0.3;
     filter: blur(1px);
+}
+
+p{
+    color: rgb(6, 172, 0);
 }

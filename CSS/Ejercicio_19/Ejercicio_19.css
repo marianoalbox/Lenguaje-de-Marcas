@@ -8,7 +8,7 @@
 
 #cuerpo{
     position: absolute;
-    top: 215px;
+    top: 209px;
     color: white;
     width: 800px;
     background-color: #252850;
@@ -17,4 +17,9 @@
 #bot{
     position: absolute;
     top: 550px;
+}
+
+#todo{
+    position: absolute;
+    left: 20%;
 }
