@@ -1,0 +1,53 @@
+
+body {
+    /* margin: 0; */
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #1d1818;
+  }
+  
+  .flex-container {
+    height: 500px;
+    background-color: #404040;
+    border-radius: 10px;
+    border: solid 2px yellow;
+    display: flex;
+    /* flex-wrap: wrap; Si ponemos
+     nowrap no se ajustan
+      los contenidos al tamaño de
+      la página */
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    flex-flow: row wrap; /*Esto equivale
+    a flex-wrap y flex-direction */
+  }
+  
+  .flex-container > * {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #f18c55;
+  }
+
+  /* Trabajamos el flex en items */
+  .one{
+    order: 1;
+    /* align-self: flex-start; */
+    height: 100px;
+  }
+
+  .two{
+    order: 0;
+    /* align-self: flex-end; */
+    height: 100px;
+    margin-left: auto;
+  }
+
+  .three{
+    order: -1;
+    height: 100px;
+  }
+  
